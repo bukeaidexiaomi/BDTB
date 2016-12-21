@@ -97,7 +97,6 @@ class BDTB:
         finally:
             print '写入任务完成'
 
-print u"请输入帖子代号"
 baseUrl = 'http://tieba.baidu.com/p/3138733512'
 seeLZ = raw_input("是否只获取楼主发言，是输入1，否输入0\n")
 floorTag = raw_input("是否写入楼层信息，是输入1，否输入0\n")
